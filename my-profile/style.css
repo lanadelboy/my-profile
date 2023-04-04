@@ -1,0 +1,99 @@
+head, body, h1, h2, a, p {
+	text-align: center;
+	font-family: Times New Roman
+
+}
+
+body {
+	background-color: #EEE9DA;
+}
+
+h2 {
+	color: #61876E;
+
+}
+
+a{
+	text-decoration: none;
+	color: #A6BB8D
+
+}
+
+a:hover{
+	color: darkblue
+}
+
+h1 {
+	color: #3C6255
+
+}
+
+img {
+	width: 200px
+}
+
+li{
+	width: 50px
+}
+
+/* Custom design with class */
+.container {
+	width: 700px ;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 400px
+	}
+}
+
+@media (max-width: 400px) {
+	.container {
+		width: 600px
+	}
+}
+
+
+
+.card-design{
+	background-color: #FFFBF5;
+    padding: 40px;
+    margin: 20px;
+    box-shadow: 5px 10px 30px rgb(0 0 0 / 30%);
+    border-radius: 4px;
+}
+
+.img-circle{
+	border-radius: 20%
+}
+
+
+.list-inline li{
+	display: inline;
+	padding: 10px ;
+	color:#A6BB8D;
+
+}
+
+.btn-green{
+	width: 20px ;
+	color: #A6BB8D; 
+
+}
+
+.btn-blue{
+	width: 15px ;
+	color: #A6BB8D; 
+
+
+
+}
+
+.btn-pink{
+	background-color: #A6BB8D ;
+	color: white;
+	padding: 5px ;
+	border-radius: 10px
+}
+
